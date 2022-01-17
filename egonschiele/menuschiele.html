@@ -1,10 +1,6 @@
 <html>
 <head>
 <style>
-body
-{
-  background-image: url("https://scontent.ffco4-1.fna.fbcdn.net/v/t39.30808-6/271978485_976539946610809_3870321655361065016_n.jpg?_nc_cat=100&_nc_rgb565=1&ccb=1-5&_nc_sid=0debeb&_nc_ohc=g5qZ6oqxzSgAX-2UMAO&_nc_ht=scontent.ffco4-1.fna&oh=00_AT8zb6NHNbnf7PT_BhfA9S973tdFh5XAfaHQQZxGY4R0KA&oe=61EA1086"); 
-}
 nav {
  margin-top: 60px;
 z-index:4;
@@ -40,21 +36,21 @@ color:#e60000;
  }
 
 aside{
-margin-top:200px;
+margin-top:80px;
 margin-left:40px;
 float: left;
 width: 30%;  
 }
 
 .titolo {
- font-size=220px;
+font-size=5000px;
 font-weight: bold;
 color:white;
 text-decoration: underline;
 }
 
 .clic{
- margin-top:10px;
+ margin-top:40px;
 font-size=20px;;
 font-weight: bold;
 color:white;
@@ -64,12 +60,20 @@ color:white;
   width: 160px;
   height:20px; 
 }
+img{
+  z-index:-5;
+}
 
-
+img {
+  position: absolute;
+  left: 0px;
+  top: -52px;
+  z-index: -1;
+}
 </style>
 </head>
-  <body>
-  <nav>
+<body>
+<nav>
   <ul>
     <li> <a href="#">vita</li>
     <li> <a href="#">opere </li> 
@@ -79,8 +83,9 @@ color:white;
   </nav>
     <aside>
       <p class="titolo"> EGON SCHIELE </p>
-      <p class="clic">>>> guarda ora
-    </p>
+      <p class="clic"> <a href="#">> guarda ora</p>
     </aside>
-  </body>
+ </body>
+<img src="https://scontent.ffco4-1.fna.fbcdn.net/v/t39.30808-6/271978485_976539946610809_3870321655361065016_n.jpg?_nc_cat=100&_nc_rgb565=1&ccb=1-5&_nc_sid=0debeb&_nc_ohc=g5qZ6oqxzSgAX-2UMAO&_nc_ht=scontent.ffco4-1.fna&oh=00_AT8zb6NHNbnf7PT_BhfA9S973tdFh5XAfaHQQZxGY4R0KA&oe=61EA1086" width=100%>
+
 </html>
