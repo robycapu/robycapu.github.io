@@ -1,0 +1,120 @@
+body {
+      background-color: DarkOrchid;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+
+      display: grid;
+      grid-template-columns: 90% 10%;
+      height: 100vh;
+      width: 100vw;
+}
+
+#menu {
+      margin: 0;
+      padding: 0;
+      background-color: chartreuse;
+      width: 35px;
+      height: 100%;
+      margin-left: auto;
+      list-style-type: none;
+}
+
+#contenitore_menu li {
+      height: 40px;
+      width: 40px;
+      border-radius: 500px;
+      background-color: darkorchid;
+
+      position: relative;
+      left: -20px;
+      top: 95px;
+      margin-bottom: 10px;
+}
+
+#menu li img {
+      margin: 20% 0% 10% 40%;
+      width: 30px;
+}
+
+#contenitore_titolo {
+      max-width: 48%;
+      margin-top: 80px;
+}
+
+#titolo {
+      color: Chartreuse;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+      font-size: 20pt;
+      margin-bottom: 0px;
+      margin-left: 20px;
+}
+
+#figura {
+      height: 20px;
+      background-color: chartreuse;
+      border-radius: 0px 50px 50px 0px;
+}
+
+
+#contenitore_corpo {
+      margin-top: 50px;
+      margin-left: 17px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      color: white;
+}
+
+
+#contenitore_corpo img {
+      width: 150px;
+      height: 190px;
+      border-radius: 20px;
+}
+
+#contenitore_corpo p {
+      margin-top: 0px;
+      margin-bottom: 20px;
+
+}
+
+
+#mostra_img {
+      display: none;
+      background-color: darkorchid;
+      position: fixed;
+      height: 100vh;
+      width: 100vw;
+      overflow: hidden;
+}
+
+
+#return {
+      margin-top: 80px;
+      width: 45px;
+      margin-left: 5px;
+}
+
+#contenitore {
+      position: absolute;
+      left: 13%;
+      top: 25%;
+      max-width: 290px;
+}
+
+#contenitore>img {
+      width: 290px;
+      height: 350px;
+      border-radius: 20px;
+}
+
+#contenitore>p {
+      margin-top: 30px;
+      padding: 10px;
+      background-color: rgba(255, 255, 255, 0.2);
+      height: 55px;
+      border-radius: 10px;
+      color: white;
+}
