@@ -1,49 +1,3 @@
-if (localStorage.getItem("count")) {
-      const count = parseInt(localStorage.getItem('count'));
-
-      for (let i = 0; i < count; i++) {
-            const sinistra = document.querySelectorAll("#sinistra > div");
-            const destra = document.querySelectorAll("#destra > div");
-
-            let id = sinistra.length <= destra.length ? "#sinistra" : "#destra";
-
-            const div = document.createElement('div');
-            const img = document.createElement('img');
-            const p = document.createElement('p');
-            const div_corpo = document.querySelector(id)
-
-
-            img.src = localStorage.getItem('img' + i);
-
-            p.innerHTML = localStorage.getItem('text' + i);
-
-            div.setAttribute('onclick', "mostra('" + img.src + "', '" + localStorage.getItem('text' + i) + "')")
-
-            div.appendChild(img)
-            div.appendChild(p)
-            div_corpo.appendChild(div)
-
-      }
-}
-
-/*
-function reset() {
-      localStorage.clear();
-}
-
-reset()
-*/
-// function sflasato() {
-//       let divs = document.querySelectorAll('#contenitore_corpo > div')
-//       let max = 50, min = 10;
-//       let j = 0
-//       divs.forEach(function (div) {
-//             let randomInt = Math.floor(Math.random() * (max - min) + min);
-//             div.style.marginTop = randomInt + 'px'
-
-//       })
-// }
-
 function mostra(img, str) {
 
       const contenitore = document.querySelector("#mostra_img")
@@ -89,10 +43,6 @@ function togli() {
       divs.forEach((div) => {
             div.style.display = "none"
       })
-}
-
-function make_photo() {
-      window.location.href = "make_photo.html";
 }
 
 function make_photo() {
