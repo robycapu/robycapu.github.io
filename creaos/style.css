@@ -2,9 +2,8 @@ body {
       background-color: DarkOrchid;
       margin: 0;
       padding: 0;
-      font-family: Arial, Helvetica, sans-serif;
+      font-family:  Acrom, Montserrat, Arial, Helvetica, sans-serif;
       font-weight: bold;
-
       display: grid;
       grid-template-columns: 90% 10%;
       height: 100vh;
@@ -45,7 +44,7 @@ body {
 
 #titolo {
       color: Chartreuse;
-      font-family: Arial, Helvetica, sans-serif;
+      font-family: Acrom, Montserrat, Arial, Helvetica, sans-serif;
       font-weight: bold;
       font-size: 20pt;
       margin-bottom: 0px;
@@ -87,7 +86,6 @@ body {
       position: fixed;
       height: 100vh;
       width: 100vw;
-      overflow: hidden;
 }
 
 
