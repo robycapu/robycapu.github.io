@@ -2,7 +2,6 @@ let video = document.querySelector("#video");
 let click_button = document.querySelector("#click-photo");
 let a = document.querySelector("#a");
 let canvas = document.querySelector("#canvas");
-let count = 0
 
 async function mostra_camera() {
       let stream = await navigator.mediaDevices.getUserMedia({
