@@ -1,0 +1,127 @@
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="./app.js" defer></script>
+    <title>creaos</title>
+</head>
+
+<body> 
+
+
+    <div id="contenitore_body" onclick="togli()">
+        <div id="contenitore_titolo">
+            <h1 id="titolo">Creaos</h1>
+            <div id="figura"></div>
+        </div>
+
+        <div id="contenitore_corpo">
+            <div id="sinistra">
+
+
+                <div>
+                    <img onclick="mostra('./img/1.jpg', 'abcdefghi')" src="./img/1.jpg" alt="">
+                    <p>abcdefghi</p>
+                </div>
+
+                <div>
+                    <img onclick="mostra('./img/3altrui.jpg', 'abcdefghi')" src="./img/3altrui.jpg"
+                        alt="">
+                    <p>abcdefghi</p>
+                </div>
+
+
+                <div>
+                    <img onclick="mostra('./img/1altrui.jpg', 'abcdefghi')" src="./img/1altrui.jpg"
+                        alt="">
+                    <p>abcdefghi</p>
+                </div>
+
+                <div>
+                    <img onclick="mostra('./img/2.jpg', 'abcdefghi')" src="./img/2.jpg" alt="">
+                    <p>abcdefghi</p>
+                </div>
+
+                <div>
+                    <img onclick="mostra('./img/2altrui.jpg', 'abcdefghi')" src="./img/2altrui.jpg"
+                        alt="">
+                    <p>abcdefghi</p>
+                </div>
+
+                <div>
+                    <img onclick="mostra('./img/3.jpg', 'abcdefghi')" src="./img/3.jpg" alt="">
+                    <p>abcdefghi</p>
+                </div>
+
+                <div>
+                    <img onclick="mostra('./img/4.jpg', 'abcdefghi')" src="./img/4.jpg" alt="">
+                    <p>abcdefghi</p>
+                </div>
+            </div>
+            <div id="destra" style="margin-top: 30px;">
+                <div>
+                    <img onclick="mostra('./img/5.jpg', 'abcdefghi')" src="./img/5.jpg" alt="">
+                    <p>abcdefghi</p>
+                </div>
+
+                <div>
+                    <img onclick="mostra('./img/6.jpg', 'abcdefghi')" src="./img/6.jpg" alt="">
+                    <p>abcdefghi</p>
+                </div>
+
+                <div>
+                    <img onclick="mostra('./img/7.jpg', 'abcdefghi')" src="./img/7.jpg" alt="">
+                    <p>abcdefghi</p>
+                </div>
+
+                <div>
+                    <img onclick="mostra('./img/8.jpg', 'abcdefghi')" src="./img/8.jpg" alt="">
+                    <p>abcdefghi</p>
+                </div>
+
+                <div>
+                    <img onclick="mostra('./img/9.jpg', 'abcdefghi')" src="./img/9.jpg" alt="">
+                    <p>abcdefghi</p>
+                </div>
+
+                <div>
+                    <img onclick="mostra('./img/10.jpg', 'abcdefghi')" src="./img/10.jpg" alt="">
+                    <p>abcdefghi</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="contenitore_menu" onclick="visualizza()">
+        <ul id="menu">
+            <li id="foto">
+                <div style="display:none" onclick="make_photo()">
+                    <img src="./img/camera.png" alt="camera">
+                </div>
+            </li>
+            <li id="libro">
+                <div style="display:none" onclick="see_books()">
+                    <img src="./img/libro.png" alt="libro">
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <div id="mostra_img">
+
+        <div>
+            <img onclick="rimuovi()" id="return" src="./img/back_2.png" alt="">
+        </div>
+
+
+        <div id="contenitore">
+            <img src="" id="img" alt="">
+            <p id="text"></p>
+        </div>
+    </div>
+</body>
+
+</html>
