@@ -4,7 +4,7 @@ body {
     padding: 0;
     font-family: Acrom, Montserrat, Arial, Helvetica, sans-serif;
     font-weight: bold;
-	 font-size: 8pt;
+	 font-size: 10pt;
 
     display: grid;
     grid-template-columns: 90% 10%;
@@ -23,7 +23,7 @@ body {
 #contenitore_menu li {
     height: 40px;
     width: 40px;
-    border-radius: 500px;
+    border-radius: 350px;
     background-color: chartreuse;
 
     position: relative;
@@ -51,7 +51,7 @@ body {
 #figura {
     height: 20px;
     background-color: chartreuse;
-    border-radius: 0px 50px 50px 0px;
+    border-radius: 0px 40px 40px 0px;
 }
 
 
@@ -109,5 +109,5 @@ body {
 #contenitore>img {
     width: 290px;
     height: 350px;
-    border-radius: 20px;
+    border-radius: 15px;
 }

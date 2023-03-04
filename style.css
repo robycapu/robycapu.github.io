@@ -23,13 +23,13 @@ body {
 #contenitore_menu li {
       height: 40px;
       width: 40px;
-      border-radius: 500px;
+      border-radius: 400px;
       background-color: darkorchid;
 
       position: relative;
       left: -20px;
-      top: 95px;
-      margin-bottom: 10px;
+      top: 100px;
+      margin-bottom: 20px;
 }
 
 #menu li img {
@@ -75,7 +75,7 @@ body {
 
 #contenitore_corpo p {
       margin-top: 0px;
-      margin-bottom: 20px;
+      margin-bottom: 25px;
 
 }
 
@@ -92,7 +92,7 @@ body {
 #return {
       margin-top: 80px;
       width: 45px;
-      margin-left: 5px;
+      margin-left: 7px;
 }
 
 #contenitore {
@@ -105,7 +105,7 @@ body {
 #contenitore>img {
       width: 290px;
       height: 350px;
-      border-radius: 20px;
+      border-radius: 15px;
 }
 
 #contenitore>p {
