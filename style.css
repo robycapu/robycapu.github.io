@@ -3,7 +3,7 @@ body {
       margin: 0;
       padding: 0;
       font-family:  Acrom, Montserrat, Arial, Helvetica, sans-serif;
-      font-weight: bold;
+      font-weight: normal;
       display: grid;
       grid-template-columns: 90% 10%;
       height: 100vh;
