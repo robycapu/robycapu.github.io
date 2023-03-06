@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style_libro.css">
+    <script src="./libro.js" defer></script>
+</head>
+
+<body>
+    <div id="return">
+        <a href="index.html ">
+            <img src="./img/back.png" alt="">
+        </a>
+        
+    </div>
+    <div>
+        <div id="contenitore_titolo">
+            <h1 id="titolo">Pareidolia</h1>
+            <div id="figura"></div>
+        </div>
+
+        <div id="corpo">
+            <p>
+                La pareidolia o illusione pareidolitica, è un fenomeno cognitivo e istintivo che vede la tendenza a
+                ricondurre da forme casuali, forme note; tale tendenza si manifesta in special modo verso le figure e
+                volti umani. Non si tratta di una patologia o un difetto congenito, ma il risultato di un’attività della
+                mente che fa riferimento e ricorso a schemi mentali di figure già presenti nella mente. È un’illusione
+                specialmente ottica, ma può essere anche di tipo uditivo.
+            </p>
+
+            <p>Perchè il volto umano?</p>
+
+            <div id="contenitore_immagini">
+                <div id="bho">
+                    <img class="p" onclick="mostra('./img/A.jpg')" src="./img/A.jpg" alt="">
+                    <img class="p" onclick="mostra('./img/B.jpg')" src="./img/B.jpg" style="margin-top: 10px;" alt="">
+                </div>
+                <div>
+                    <img class="g" onclick="mostra('./img/C.jpg')" src="./img/C.jpg" alt="">
+                </div>
+            </div>
+
+            <p>
+                Il volto umano è l’immagine maggiormente riconosciuta in situazioni confuse, ciò è dovuto principalmente
+                per ragioni
+                legate alla sopravvivenza. Tale capacità innata è dovuta quasi certamente alla necessità degli uomini
+                preistorici di
+                riconoscere un potenziale predatore mimetizzato nella natura, così come la capacità di distinguere i
+                volti umani da
+                figure fin dai primi mesi di vita.
+                È stato dimostrato che l’elaborazione dei volti negli oggetti fa ricorso agli stessi meccanismi e alla
+                stessa area
+                cerebrale dell’elaborazione dei volti reali, infatti l’uomo ha un’area cerebrale specifica
+                all’identificazione dei volti
+                umani, ossia la FFA, l’ area fusiforme facciale.
+                La capacità pareidolitica non è oggettiva e uguale in tutti. La pareidolia, come la percezione è
+                influenzata dalle
+                credenze, dalla suggestionabilità, dal contesto, dalla creatività ma anche dallo stato d’animo e dalle
+                esperienze
+                passate
+            </p>
+        </div>
+    </div>
+
+    <div id="mostra_img">
+
+        <div>
+            <img onclick="rimuovi()" id="return" src="./img/back_2.png" alt="">
+        </div>
+
+
+        <div id="contenitore">
+            <img src="" id="img" alt="">
+        </div>
+    </div>
+</body>
+
+</html>
