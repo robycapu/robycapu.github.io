@@ -1,0 +1,88 @@
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="./app.js" defer></script>
+    <title>creaos #4</title>
+</head>
+
+<body>
+    <div id="contenitore_menu">
+        <ul id="menu">
+            <li id="libro">
+                <div onclick="see_books()">
+                    <img src="./4img/libro.png" alt="libro">
+                </div>
+            </li>
+            <li id="foto">
+                <div onclick="make_photo()" class="destra">
+                    <img src="./4img/camera.png" alt="camera">
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <div id="contenitore_body">
+        <div id="contenitore_titolo">
+            <h1 id="titolo">Creaos #4</h1>
+            <div id="figura"></div>
+        </div>
+
+        <div id="contenitore_corpo">
+            <div id="sinistra">
+
+
+                <div>
+                    <img onclick="mostra('./4img/1.jpg', 'vedo...')" src="./4img/1.jpg" alt="">
+                    <p>vedo... </p>
+                </div> 
+
+                <div>
+                    <img onclick="mostra('./4img/2.jpg', 'vedo...')" src="./4img/2.jpg"
+                        alt="">
+                    <p>vedo...</p>
+                </div>
+				 <div>
+                    <img onclick="mostra('./4img/1.jpg', 'vedo...')" src="./4img/1.jpg"
+                        alt="">
+                    <p>vedo...</p>
+                </div>
+
+
+            </div>
+            <div id="destra" style="margin-top: 30px;">
+        
+                   <div>
+                    <img onclick="mostra('./4img/1.jpg', 'vedo...')" src="./4img/1.jpg" alt="">
+                    <p>vedo... </p>
+                </div> 
+
+                <div>
+                    <img onclick="mostra('./4img/2.jpg', 'vedo...')" src="./4img/2.jpg"
+                        alt="">
+                    <p>vedo...</p>
+                </div>
+
+
+            </div>
+        </div>
+
+    </div>
+
+    <div id="mostra_img">
+
+        <div>
+            <img onclick="rimuovi()" id="return" src="./img/back_2.png" alt="">
+        </div>
+
+
+        <div id="contenitore">
+            <img src="" id="img" alt="">
+            <p id="text"></p>
+        </div>
+    </div>
+</body>
+
+</html>
