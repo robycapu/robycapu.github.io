@@ -1,0 +1,93 @@
+body {
+    background-color: DarkOrchid;
+    margin: 0;
+    padding: 0;
+    font-family: Acrom, Montserrat, Arial, Helvetica, sans-serif;
+    font-weight: normal;
+	font-size: 10pt;
+}
+
+#return {
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#return img {
+    width: 100px;
+}
+
+#contenitore_titolo {
+    max-width: 48%;
+    margin-top: 30px;
+}
+
+#titolo {
+    color: Chartreuse;
+    font-family: Acrom, Montserrat, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20pt;
+    margin-bottom: 0px;
+    margin-left: 10px;
+
+}
+
+#figura {
+    height: 20px;
+    background-color: chartreuse;
+    border-radius: 0px 40px 40px 0px;
+}
+
+
+#corpo {
+    margin: 30px 15px 0px 15px;
+    overflow: hidden;
+    color: white;
+}
+
+#contenitore_immagini {
+    display: grid;
+    grid-template-columns: 1fr 0.9fr;
+}
+
+#contenitore_immagini #bho {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.p {
+    width: 150px;
+    height: 120px;
+    border-radius: 20px;
+}
+
+.g {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+#mostra_img {
+    display: none;
+    background-color: darkorchid;
+    position: fixed;
+    height: 100vh;
+}
+
+#contenitore {
+    position: absolute;
+    left: 13%;
+    top: 25%;
+    max-width: 290px;
+}
+
+#contenitore>img {
+    width: 290px;
+    height: 350px;
+    border-radius: 15px;
+}
+
+#return_m{
+    height: 50px;
+    margin: 30% 0% 0% 1%;
+}
