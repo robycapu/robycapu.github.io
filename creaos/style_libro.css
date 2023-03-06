@@ -3,39 +3,23 @@ body {
     margin: 0;
     padding: 0;
     font-family: Acrom, Montserrat, Arial, Helvetica, sans-serif;
-    font-weight: bold;
-	 font-size: 8pt;
-
-    display: grid;
-    grid-template-columns: 90% 10%;
+    font-weight: normal;
+	font-size: 10pt;
 }
 
-#menu {
-    margin: 0;
-    padding: 0;
-    background-color: chartreuse;
-    width: 35px;
-    height: 100%;
-    margin-left: auto;
-    list-style-type: none;
+#return {
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
 }
 
-#contenitore_menu li {
-    height: 40px;
-    width: 40px;
-    border-radius: 500px;
-    background-color: chartreuse;
-
-    position: relative;
-    left: -20px;
-    top: 145px;
-    margin-bottom: 10px;
+#return img {
+    width: 100px;
 }
-
 
 #contenitore_titolo {
     max-width: 48%;
-    margin-top: 80px;
+    margin-top: 30px;
 }
 
 #titolo {
@@ -51,7 +35,7 @@ body {
 #figura {
     height: 20px;
     background-color: chartreuse;
-    border-radius: 0px 50px 50px 0px;
+    border-radius: 0px 40px 40px 0px;
 }
 
 
@@ -88,15 +72,6 @@ body {
     background-color: darkorchid;
     position: fixed;
     height: 100vh;
-    width: 100vw;
-}
-
-
-
-#return {
-    margin-top: 80px;
-    width: 45px;
-    margin-left: 5px;
 }
 
 #contenitore {
@@ -109,5 +84,10 @@ body {
 #contenitore>img {
     width: 290px;
     height: 350px;
-    border-radius: 20px;
+    border-radius: 15px;
+}
+
+#return_m{
+    height: 50px;
+    margin: 30% 0% 0% 1%;
 }
